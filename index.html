@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile Card</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+  <div class="bg-white rounded-lg shadow-md p-6 w-80 text-center">
+    <!-- Profile Picture -->
+    <img 
+      src="assets/ken.jpg" 
+      alt="Profile Picture" 
+      class="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+    >
+    
+    <!-- Name and Bio -->
+    <h2 class="text-xl 
+    font-bold 
+    text-gray-800 
+    mb-2">Kennedy Phiri</h2>
+    <p class="text-gray-600 mb-4">Software Engineer | Tech Enthusiast</p>
+    
+    <!-- Skills -->
+    <div class="mb-4">
+      <p class="text-sm text-gray-600 leading-relaxed">
+        C#, PHP, Kotlin, Database Management (Supabase), Web Development, UX Design, GitHub
+      </p>
+    </div>
+    
+    <!-- Interests -->
+    <div class="mb-6">
+      <p class="text-sm text-gray-600 leading-relaxed">
+        📈 Tech Innovation | 🏥 Health Sector Solutions | 
+        🌍 Empowering Farmers | 🤝 Building Developer Communities | 
+        🌱 Personal Growth
+      </p>
+    </div>
+    
+    <!-- Social Links -->
+    <div class="flex justify-center space-x-4 items-center">
+      <!-- X (formerly Twitter) -->
+      <a href="#" class="text-gray-600 hover:text-black transition-colors duration-300">
+        <i class="fa-brands fa-x-twitter text-xl"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">
+        <i class="fab fa-facebook text-xl"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="#" class="text-gray-600 hover:text-pink-600 transition-colors duration-300">
+        <i class="fab fa-instagram text-xl"></i>
+      </a>
+      <!-- TikTok -->
+      <a href="#" class="text-gray-600 hover:text-black transition-colors duration-300">
+        <i class="fab fa-tiktok text-xl"></i>
+      </a>
+      <!-- LinkedIn -->
+      <a href="#" class="text-gray-600 hover:text-blue-700 transition-colors duration-300">
+        <i class="fab fa-linkedin text-xl"></i>
+      </a>
+      <!-- GitHub -->
+      <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">
+        <i class="fab fa-github text-xl"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Include Font Awesome library for social icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+</body>
+</html>
