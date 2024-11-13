@@ -91,9 +91,9 @@ The profile card is fully responsive and adapts to:
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 📞 Contact
-Your Name - [@yourusername](https://x.com/yourusername)
+Your Name - [@kennie265](https://x.com/Kennedyphiri)
 
-Project Link: [https://github.com/yourusername/profile-card](https://github.com/kennie265/profile-card)
+Project Link: [https://github.com/kennie265/profile-card](https://github.com/kennie265/profile-card)
 
 ## 🙏 Acknowledgments
 - [Tailwind CSS](https://tailwindcss.com/)
