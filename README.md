@@ -25,7 +25,7 @@ A clean and responsive profile card built with HTML and Tailwind CSS. This proje
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/profile-card.git
+git clone https://github.com/kennie265/profile-card.git
 ```
 
 2. Open the project folder:
