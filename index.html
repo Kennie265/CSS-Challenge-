@@ -6,6 +6,29 @@
   <title>Personal Profile Card</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            'gradient': 'gradient 15s ease infinite',
+          },
+          keyframes: {
+            gradient: {
+              '0%, 100%': {
+                'background-size': '200% 200%',
+                'background-position': 'left center'
+              },
+              '50%': {
+                'background-size': '200% 200%',
+                'background-position': 'right center'
+              },
+            },
+          },
+        },
+      },
+    }
+  </script>
 </head>
 <body class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
   <div class="bg-white rounded-lg shadow-md p-6 w-80 text-center">
