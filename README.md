@@ -2,7 +2,7 @@
 
 A clean and responsive profile card built with HTML and Tailwind CSS. This project provides a modern, business card-style presentation of personal and professional information.
 
-![Profile Card Preview](preview-image-url.png)
+
 
 ## 🚀 Features
 
@@ -93,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 📞 Contact
 Your Name - [@yourusername](https://x.com/yourusername)
 
-Project Link: [https://github.com/yourusername/profile-card](https://github.com/yourusername/profile-card)
+Project Link: [https://github.com/yourusername/profile-card](https://github.com/kennie265/profile-card)
 
 ## 🙏 Acknowledgments
 - [Tailwind CSS](https://tailwindcss.com/)
