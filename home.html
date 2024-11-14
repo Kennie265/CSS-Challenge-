@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-description {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        @media (max-width: 768px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="/api/placeholder/400/200" alt="Nature landscape" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Mountain Adventure</h2>
+                    <p class="card-description">Explore breathtaking mountain views and challenging trails perfect for hiking enthusiasts and nature lovers.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="/api/placeholder/400/200" alt="Beach sunset" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Coastal Getaway</h2>
+                    <p class="card-description">Discover pristine beaches, crystal-clear waters, and relaxing coastal vibes perfect for your next vacation.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="/api/placeholder/400/200" alt="City skyline" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Urban Exploration</h2>
+                    <p class="card-description">Experience the vibrant city life with its modern architecture, cultural attractions, and diverse dining options.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
